@@ -1,0 +1,50 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="other-style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Hypotenuse calc test</h1>
+      <p>We will find the Hypotenuse by using the pythagorean theorem</p>
+    </header>
+    <form action="">
+      <div class="container">
+        <label for="a"
+          >Side A:<input type="text" class="type" name="A" id="a"
+        /></label>
+      </div>
+      <div class="container">
+        <label for="b"
+          >Side B:<input type="text" class="type" name="B" id="b"
+        /></label>
+      </div>
+      <button id="submit" type="button">Submit</button>
+      <p id="answer">Result</p>
+    </form>
+    <br /><br /><br /><br /><br />
+    <div id="counter">
+      <p id="Number">0</p>
+      <button id="up">up</button>
+      <button id="down">down</button>
+      <button id="reset">reset</button>
+    </div>
+    <br /><br /><br /><br /><br />
+    <form action="randomer">
+      <label for="randomer"
+        >Guess the Number<input
+          type="text"
+          name="Randomer"
+          id="randomer"
+          class="type"
+      /></label>
+      <button type="button" id="randomerbtn">Select</button>
+      <p>Between 1-100</p>
+      <p id="numGuess">Guesses</p>
+    </form>
+    <script src="pop.js"></script>
+  </body>
+</html>
